@@ -41,3 +41,26 @@ Se XP for maior ou igual a 10.001 = Radiante
 
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
+
+*/
+// Criando as variáveis
+let nomeHeroi = "Super Fulano"
+let xpHeroi = 10001;
+// Decisão com if else if else
+if(xpHeroi < 1000){
+  console.log("O heroi "+nomeHeroi+" esta no nivel de Ferro")
+  }else if(xpHeroi >= 1000 && xpHeroi <= 2000){
+    console.log("O heroi "+nomeHeroi+" esta no nivel de Bronze")
+    }else if(xpHeroi > 2000 && xpHeroi <= 5000){
+      console.log("O heroi "+nomeHeroi+" esta no nivel de Prata")
+      }else if(xpHeroi > 5000 && xpHeroi <= 7000){
+        console.log("O heroi "+nomeHeroi+" esta no nivel de Ouro")
+        }else if(xpHeroi > 7000 && xpHeroi <= 8000){
+          console.log("O heroi "+nomeHeroi+" esta no nivel de Platina")
+          }else if(xpHeroi > 8000 && xpHeroi <= 9000){
+            console.log("O heroi "+nomeHeroi+" esta no nivel de Ascendente")
+            }else if(xpHeroi > 9000 && xpHeroi <= 10000){
+              console.log("O heroi "+nomeHeroi+" esta no nivel de Imortal")
+              }else {
+                console.log("O heroi "+nomeHeroi+" esta no nivel de Radiante")
+                }
